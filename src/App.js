@@ -1,10 +1,12 @@
-import CardFlip from './compo/Card-Flip';
+// import CardFlip from './compo/Card-Flip';
+import Home from './pages/Home'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <CardFlip/>
+      <Home/>
+     {/* <CardFlip/> */}
     </div>
   );
 }

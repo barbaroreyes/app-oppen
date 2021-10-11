@@ -4,10 +4,34 @@
   box-sizing: border-box;
 }
 
-/* .App {
+.App {
   text-align: center;
-} */
+}
+.home{
+  display: flex;
+  justify-content: center;
+  
+  padding: 20px;
+  height: 707px;
+    
 
+}.porta{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+   border: 4px dotted black;
+   
+}.side{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  width:60%;
+  border: 4px dotted black;
+
+}
 @media (max-width: 768px) {
   .App{
     display: flex;
@@ -15,6 +39,59 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding:10px;
+  }.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 687px;
+    border: 4px dotted black;
+    padding: 10px;
+
+
+  }.porta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    /* border: 3px solid black; */
+    height: 300px;
+
+  }.side{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    /* border: 3px solid black; */
+    height: 400px;
+
+  }
+
+}
+
+/* @media (max-width: 768px) {
+  .App{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home{
+    width: 80%;
+    border: 4px dotted black
+  }.porta{
+    width:20%;
+    border: 3px solid black;
+
+  }.side{
+    width: 100%;
+    border: 3px solid black;
+
   }
   .front{
     width: 100%;
@@ -27,7 +104,7 @@
     border: 5px solid black;
     }
     .back{
-      /* width: 100%; */
+      width: 100%;
       height: 200px;
       display: flex;
       justify-content: center;
@@ -37,4 +114,4 @@
       border: 5px solid black;
       
     }
-}
+} */
