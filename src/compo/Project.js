@@ -10,24 +10,15 @@ const CardFlip = () => {
         }
 
   return (
-    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal"
-    style={{
-        
-    }}
-    >
-    <div className ='front'
-    onClick={handleClick}
-   >
-    front of the card.
-    click to see more
+    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+    <div className ='front'>
+      This is the front of the card.
+      <button onClick={handleClick}>Click to flip</button>
     </div>
 
-    <div className ='back'
-    onClick={handleClick}
-    >
-      
-      bach of the card.
-      click to see more
+    <div className ='back'>
+      This is the back of the card.
+      <button onClick={handleClick}>Click to flip</button>
     </div>
   </ReactCardFlip>
   );
