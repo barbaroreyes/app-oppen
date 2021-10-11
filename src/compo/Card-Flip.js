@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import ReactCardFlip from 'react-card-flip';
+import {Link} from 'react-router-dom'
 
-
-const CardFlip = () => {
+const CardFlip = (props) => {
     const [isFlipped , setIsFlipped] = useState(false)
 
     const handleClick = () => {
@@ -18,14 +18,15 @@ const CardFlip = () => {
     <div className ='front'
     onClick={handleClick}
    >
-    front of the card.
+    {props.name}
     click to see more
+   
     </div>
 
     <div className ='back'
     onClick={handleClick}
     >
-      
+       <Link to='/'>Home</Link>
       bach of the card.
       click to see more
     </div>
