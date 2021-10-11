@@ -116,14 +116,14 @@ footer{
   }.front{
     display: flex;
      margin: 10px;
-    height: 100px;
+    height: 126px;
     border: 4px solid black;
     
 
   }.back{
     display: flex;
     margin: 10px;
-    height: 100px;
+    height: 126px;
     border: 4px solid black;
   }
 
