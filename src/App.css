@@ -52,6 +52,7 @@
 @media (max-width: 768px) {
   .App{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }.home{
     width: 100%;
@@ -59,7 +60,9 @@
     display: flex;
     flex-direction: row;
     
+    
   }footer{
+    padding:20px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -79,10 +82,11 @@
     width: 100%;
     height: auto;
     border:4px dotted black;
+    padding:20px;
 
   }
   .porta{
-    padding: 20px;
+    padding: 40px;
     display: flex;
   }.side{
     display: flex;
