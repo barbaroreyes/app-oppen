@@ -19,16 +19,16 @@ const CardFlip = (props) => {
     onClick={handleClick}
    >
     {props.name}
-    click to see more
+    
    
     </div>
 
     <div className ='back'
     onClick={handleClick}
     >
-       <Link to='/'>Home</Link>
-      bach of the card.
-      click to see more
+       <a href={props.live}>App</a>
+       <a href={props.github}>github</a>
+     
     </div>
   </ReactCardFlip>
   );

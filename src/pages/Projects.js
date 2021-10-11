@@ -7,7 +7,9 @@ const Projects = () => {
     <div className="projects">{
         Data.map((item, i) => {
             return (
-                <CardFlip {...item}/>
+                <CardFlip 
+                key={i}
+                {...item}/>
                
 
             )

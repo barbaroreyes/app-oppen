@@ -1,8 +1,8 @@
  const data = [{
-    name:'Project1',
-    live:'live',
+    name:'Beer Store',
+    live:'https://barbaro-store-beers.netlify.app/',
     picture:'app',
-    github:'github',
+    github:'https://github.com/barbaroreyes/app-store-beers',
 
 },{
     name:'Project2',
