@@ -12,6 +12,9 @@ const Porta = () => {
         <Portasee/>
         <Items />
         <Items />
+        <Items />
+        <Items />
+        <Items />
         <Portasee/>
       </Route>
 
